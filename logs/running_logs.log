@@ -1,0 +1,530 @@
+[2023-04-07 21:55:01,373: INFO: or]: >>>>> starting training <<<<<
+[2023-04-07 21:55:01,377: INFO: or]: This is actual dataframe   x1  x2  y
+0   0   0  0
+1   0   1  1
+2   1   0  1
+3   1   1  1
+[2023-04-07 21:55:01,378: INFO: all_utils]: Preparing the data by separating the dependent and independent variables
+[2023-04-07 21:55:01,379: INFO: model]: initial weights before training: 
+[-1.51965473e-04 -6.47907905e-05  1.38058102e-05]
+[2023-04-07 21:55:01,379: INFO: model]: X with bias: 
+[[ 0.  0. -1.]
+ [ 0.  1. -1.]
+ [ 1.  0. -1.]
+ [ 1.  1. -1.]]
+[2023-04-07 21:55:01,379: INFO: model]: --------------------
+[2023-04-07 21:55:01,380: INFO: model]: for epoch: 0
+[2023-04-07 21:55:01,380: INFO: model]: --------------------
+[2023-04-07 21:55:01,380: INFO: model]: predicted value after forward pass: 
+[0 0 0 0]
+[2023-04-07 21:55:01,380: INFO: model]: error: 
+0    0
+1    1
+2    1
+3    1
+Name: y, dtype: int64
+[2023-04-07 21:55:01,380: INFO: model]: updated weights after epoch:
+0/10 : 
+[ 0.59984803  0.59993521 -0.89998619]
+[2023-04-07 21:55:01,380: INFO: model]: ##################################################
+[2023-04-07 21:55:01,380: INFO: model]: --------------------
+[2023-04-07 21:55:01,380: INFO: model]: for epoch: 1
+[2023-04-07 21:55:01,380: INFO: model]: --------------------
+[2023-04-07 21:55:01,380: INFO: model]: predicted value after forward pass: 
+[1 1 1 1]
+[2023-04-07 21:55:01,380: INFO: model]: error: 
+0   -1
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2023-04-07 21:55:01,380: INFO: model]: updated weights after epoch:
+1/10 : 
+[ 0.59984803  0.59993521 -0.59998619]
+[2023-04-07 21:55:01,380: INFO: model]: ##################################################
+[2023-04-07 21:55:01,380: INFO: model]: --------------------
+[2023-04-07 21:55:01,381: INFO: model]: for epoch: 2
+[2023-04-07 21:55:01,381: INFO: model]: --------------------
+[2023-04-07 21:55:01,381: INFO: model]: predicted value after forward pass: 
+[1 1 1 1]
+[2023-04-07 21:55:01,381: INFO: model]: error: 
+0   -1
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2023-04-07 21:55:01,381: INFO: model]: updated weights after epoch:
+2/10 : 
+[ 0.59984803  0.59993521 -0.29998619]
+[2023-04-07 21:55:01,381: INFO: model]: ##################################################
+[2023-04-07 21:55:01,381: INFO: model]: --------------------
+[2023-04-07 21:55:01,381: INFO: model]: for epoch: 3
+[2023-04-07 21:55:01,381: INFO: model]: --------------------
+[2023-04-07 21:55:01,381: INFO: model]: predicted value after forward pass: 
+[1 1 1 1]
+[2023-04-07 21:55:01,381: INFO: model]: error: 
+0   -1
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2023-04-07 21:55:01,381: INFO: model]: updated weights after epoch:
+3/10 : 
+[5.99848035e-01 5.99935209e-01 1.38058102e-05]
+[2023-04-07 21:55:01,381: INFO: model]: ##################################################
+[2023-04-07 21:55:01,381: INFO: model]: --------------------
+[2023-04-07 21:55:01,381: INFO: model]: for epoch: 4
+[2023-04-07 21:55:01,381: INFO: model]: --------------------
+[2023-04-07 21:55:01,382: INFO: model]: predicted value after forward pass: 
+[0 1 1 1]
+[2023-04-07 21:55:01,382: INFO: model]: error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2023-04-07 21:55:01,382: INFO: model]: updated weights after epoch:
+4/10 : 
+[5.99848035e-01 5.99935209e-01 1.38058102e-05]
+[2023-04-07 21:55:01,382: INFO: model]: ##################################################
+[2023-04-07 21:55:01,382: INFO: model]: --------------------
+[2023-04-07 21:55:01,382: INFO: model]: for epoch: 5
+[2023-04-07 21:55:01,382: INFO: model]: --------------------
+[2023-04-07 21:55:01,382: INFO: model]: predicted value after forward pass: 
+[0 1 1 1]
+[2023-04-07 21:55:01,382: INFO: model]: error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2023-04-07 21:55:01,382: INFO: model]: updated weights after epoch:
+5/10 : 
+[5.99848035e-01 5.99935209e-01 1.38058102e-05]
+[2023-04-07 21:55:01,382: INFO: model]: ##################################################
+[2023-04-07 21:55:01,382: INFO: model]: --------------------
+[2023-04-07 21:55:01,382: INFO: model]: for epoch: 6
+[2023-04-07 21:55:01,382: INFO: model]: --------------------
+[2023-04-07 21:55:01,382: INFO: model]: predicted value after forward pass: 
+[0 1 1 1]
+[2023-04-07 21:55:01,383: INFO: model]: error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2023-04-07 21:55:01,383: INFO: model]: updated weights after epoch:
+6/10 : 
+[5.99848035e-01 5.99935209e-01 1.38058102e-05]
+[2023-04-07 21:55:01,383: INFO: model]: ##################################################
+[2023-04-07 21:55:01,383: INFO: model]: --------------------
+[2023-04-07 21:55:01,383: INFO: model]: for epoch: 7
+[2023-04-07 21:55:01,383: INFO: model]: --------------------
+[2023-04-07 21:55:01,383: INFO: model]: predicted value after forward pass: 
+[0 1 1 1]
+[2023-04-07 21:55:01,383: INFO: model]: error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2023-04-07 21:55:01,383: INFO: model]: updated weights after epoch:
+7/10 : 
+[5.99848035e-01 5.99935209e-01 1.38058102e-05]
+[2023-04-07 21:55:01,383: INFO: model]: ##################################################
+[2023-04-07 21:55:01,383: INFO: model]: --------------------
+[2023-04-07 21:55:01,383: INFO: model]: for epoch: 8
+[2023-04-07 21:55:01,383: INFO: model]: --------------------
+[2023-04-07 21:55:01,383: INFO: model]: predicted value after forward pass: 
+[0 1 1 1]
+[2023-04-07 21:55:01,383: INFO: model]: error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2023-04-07 21:55:01,384: INFO: model]: updated weights after epoch:
+8/10 : 
+[5.99848035e-01 5.99935209e-01 1.38058102e-05]
+[2023-04-07 21:55:01,384: INFO: model]: ##################################################
+[2023-04-07 21:55:01,384: INFO: model]: --------------------
+[2023-04-07 21:55:01,384: INFO: model]: for epoch: 9
+[2023-04-07 21:55:01,384: INFO: model]: --------------------
+[2023-04-07 21:55:01,384: INFO: model]: predicted value after forward pass: 
+[0 1 1 1]
+[2023-04-07 21:55:01,384: INFO: model]: error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2023-04-07 21:55:01,384: INFO: model]: updated weights after epoch:
+9/10 : 
+[5.99848035e-01 5.99935209e-01 1.38058102e-05]
+[2023-04-07 21:55:01,384: INFO: model]: ##################################################
+[2023-04-07 21:55:01,384: INFO: model]: total loss: 0
+[2023-04-07 21:55:01,384: INFO: all_utils]: Saving the trained model
+[2023-04-07 21:55:01,386: INFO: all_utils]: saved the trained model to models/or.model
+[2023-04-07 21:55:01,386: INFO: all_utils]: Preparing the data by separating the dependent and independent variables
+[2023-04-07 21:55:01,387: INFO: all_utils]: Creating the base plot
+[2023-04-07 21:55:01,531: INFO: all_utils]: Plotting the decision regions
+[2023-04-07 21:55:01,629: INFO: all_utils]: saved the plot to plots/or.png
+[2023-04-07 21:55:01,629: INFO: or]: <<<<< finished training <<<<<
+[2023-04-07 22:22:16,546: INFO: or]: >>>>> starting training <<<<<
+[2023-04-07 22:22:16,546: ERROR: or]: main() got an unexpected keyword argument 'test'
+Traceback (most recent call last):
+  File "or.py", line 43, in <module>
+    main(data=OR, eta=ETA, epochs=EPOCHS, filename="or.model", plotFilename="or.png", test=22)
+TypeError: main() got an unexpected keyword argument 'test'
+[2023-04-07 22:25:27,828: INFO: or]: >>>>> starting training <<<<<
+[2023-04-07 22:25:27,829: ERROR: or]: main() got an unexpected keyword argument 'test'
+Traceback (most recent call last):
+  File "or.py", line 44, in <module>
+    main(data=OR, eta=ETA, epochs=EPOCHS, filename="or.model", plotFilename="or.png", test=22)
+TypeError: main() got an unexpected keyword argument 'test'
+[2023-04-07 22:26:37,034: INFO: or]: >>>>> starting training <<<<<
+[2023-04-07 22:26:37,038: INFO: or]: This is actual dataframe   x1  x2  y
+0   0   0  0
+1   0   1  1
+2   1   0  1
+3   1   1  1
+[2023-04-07 22:26:37,040: INFO: all_utils]: Preparing the data by separating the dependent and independent variables
+[2023-04-07 22:26:37,040: INFO: model]: initial weights before training: 
+[1.03244294e-04 2.71872373e-05 7.18637143e-05]
+[2023-04-07 22:26:37,041: INFO: model]: X with bias: 
+[[ 0.  0. -1.]
+ [ 0.  1. -1.]
+ [ 1.  0. -1.]
+ [ 1.  1. -1.]]
+[2023-04-07 22:26:37,041: INFO: model]: --------------------
+[2023-04-07 22:26:37,041: INFO: model]: for epoch: 0
+[2023-04-07 22:26:37,041: INFO: model]: --------------------
+[2023-04-07 22:26:37,041: INFO: model]: predicted value after forward pass: 
+[0 0 1 1]
+[2023-04-07 22:26:37,041: INFO: model]: error: 
+0    0
+1    1
+2    0
+3    0
+Name: y, dtype: int64
+[2023-04-07 22:26:37,041: INFO: model]: updated weights after epoch:
+0/10 : 
+[ 1.03244294e-04  3.00027187e-01 -2.99928136e-01]
+[2023-04-07 22:26:37,041: INFO: model]: ##################################################
+[2023-04-07 22:26:37,041: INFO: model]: --------------------
+[2023-04-07 22:26:37,041: INFO: model]: for epoch: 1
+[2023-04-07 22:26:37,041: INFO: model]: --------------------
+[2023-04-07 22:26:37,041: INFO: model]: predicted value after forward pass: 
+[1 1 1 1]
+[2023-04-07 22:26:37,041: INFO: model]: error: 
+0   -1
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2023-04-07 22:26:37,042: INFO: model]: updated weights after epoch:
+1/10 : 
+[1.03244294e-04 3.00027187e-01 7.18637143e-05]
+[2023-04-07 22:26:37,042: INFO: model]: ##################################################
+[2023-04-07 22:26:37,042: INFO: model]: --------------------
+[2023-04-07 22:26:37,042: INFO: model]: for epoch: 2
+[2023-04-07 22:26:37,042: INFO: model]: --------------------
+[2023-04-07 22:26:37,042: INFO: model]: predicted value after forward pass: 
+[0 1 1 1]
+[2023-04-07 22:26:37,042: INFO: model]: error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2023-04-07 22:26:37,042: INFO: model]: updated weights after epoch:
+2/10 : 
+[1.03244294e-04 3.00027187e-01 7.18637143e-05]
+[2023-04-07 22:26:37,042: INFO: model]: ##################################################
+[2023-04-07 22:26:37,042: INFO: model]: --------------------
+[2023-04-07 22:26:37,042: INFO: model]: for epoch: 3
+[2023-04-07 22:26:37,042: INFO: model]: --------------------
+[2023-04-07 22:26:37,042: INFO: model]: predicted value after forward pass: 
+[0 1 1 1]
+[2023-04-07 22:26:37,042: INFO: model]: error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2023-04-07 22:26:37,042: INFO: model]: updated weights after epoch:
+3/10 : 
+[1.03244294e-04 3.00027187e-01 7.18637143e-05]
+[2023-04-07 22:26:37,042: INFO: model]: ##################################################
+[2023-04-07 22:26:37,042: INFO: model]: --------------------
+[2023-04-07 22:26:37,043: INFO: model]: for epoch: 4
+[2023-04-07 22:26:37,043: INFO: model]: --------------------
+[2023-04-07 22:26:37,043: INFO: model]: predicted value after forward pass: 
+[0 1 1 1]
+[2023-04-07 22:26:37,043: INFO: model]: error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2023-04-07 22:26:37,043: INFO: model]: updated weights after epoch:
+4/10 : 
+[1.03244294e-04 3.00027187e-01 7.18637143e-05]
+[2023-04-07 22:26:37,043: INFO: model]: ##################################################
+[2023-04-07 22:26:37,043: INFO: model]: --------------------
+[2023-04-07 22:26:37,043: INFO: model]: for epoch: 5
+[2023-04-07 22:26:37,043: INFO: model]: --------------------
+[2023-04-07 22:26:37,043: INFO: model]: predicted value after forward pass: 
+[0 1 1 1]
+[2023-04-07 22:26:37,043: INFO: model]: error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2023-04-07 22:26:37,043: INFO: model]: updated weights after epoch:
+5/10 : 
+[1.03244294e-04 3.00027187e-01 7.18637143e-05]
+[2023-04-07 22:26:37,043: INFO: model]: ##################################################
+[2023-04-07 22:26:37,043: INFO: model]: --------------------
+[2023-04-07 22:26:37,043: INFO: model]: for epoch: 6
+[2023-04-07 22:26:37,043: INFO: model]: --------------------
+[2023-04-07 22:26:37,043: INFO: model]: predicted value after forward pass: 
+[0 1 1 1]
+[2023-04-07 22:26:37,044: INFO: model]: error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2023-04-07 22:26:37,044: INFO: model]: updated weights after epoch:
+6/10 : 
+[1.03244294e-04 3.00027187e-01 7.18637143e-05]
+[2023-04-07 22:26:37,044: INFO: model]: ##################################################
+[2023-04-07 22:26:37,044: INFO: model]: --------------------
+[2023-04-07 22:26:37,044: INFO: model]: for epoch: 7
+[2023-04-07 22:26:37,044: INFO: model]: --------------------
+[2023-04-07 22:26:37,044: INFO: model]: predicted value after forward pass: 
+[0 1 1 1]
+[2023-04-07 22:26:37,044: INFO: model]: error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2023-04-07 22:26:37,044: INFO: model]: updated weights after epoch:
+7/10 : 
+[1.03244294e-04 3.00027187e-01 7.18637143e-05]
+[2023-04-07 22:26:37,044: INFO: model]: ##################################################
+[2023-04-07 22:26:37,044: INFO: model]: --------------------
+[2023-04-07 22:26:37,044: INFO: model]: for epoch: 8
+[2023-04-07 22:26:37,044: INFO: model]: --------------------
+[2023-04-07 22:26:37,044: INFO: model]: predicted value after forward pass: 
+[0 1 1 1]
+[2023-04-07 22:26:37,045: INFO: model]: error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2023-04-07 22:26:37,045: INFO: model]: updated weights after epoch:
+8/10 : 
+[1.03244294e-04 3.00027187e-01 7.18637143e-05]
+[2023-04-07 22:26:37,045: INFO: model]: ##################################################
+[2023-04-07 22:26:37,045: INFO: model]: --------------------
+[2023-04-07 22:26:37,045: INFO: model]: for epoch: 9
+[2023-04-07 22:26:37,045: INFO: model]: --------------------
+[2023-04-07 22:26:37,045: INFO: model]: predicted value after forward pass: 
+[0 1 1 1]
+[2023-04-07 22:26:37,045: INFO: model]: error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2023-04-07 22:26:37,045: INFO: model]: updated weights after epoch:
+9/10 : 
+[1.03244294e-04 3.00027187e-01 7.18637143e-05]
+[2023-04-07 22:26:37,045: INFO: model]: ##################################################
+[2023-04-07 22:26:37,045: INFO: model]: total loss: 0
+[2023-04-07 22:26:37,045: INFO: all_utils]: Saving the trained model
+[2023-04-07 22:26:37,047: INFO: all_utils]: saved the trained model to models/or.model
+[2023-04-07 22:26:37,048: INFO: all_utils]: Preparing the data by separating the dependent and independent variables
+[2023-04-07 22:26:37,048: INFO: all_utils]: Creating the base plot
+[2023-04-07 22:26:37,208: INFO: all_utils]: Plotting the decision regions
+[2023-04-07 22:26:37,312: INFO: all_utils]: saved the plot to plots/or.png
+[2023-04-07 22:26:37,312: INFO: or]: <<<<< finished training <<<<<
+
+[2023-04-07 22:29:32,413: INFO: or]: >>>>> starting training <<<<<
+[2023-04-07 22:29:32,417: INFO: or]: This is actual dataframe   x1  x2  y
+0   0   0  0
+1   0   1  1
+2   1   0  1
+3   1   1  1
+[2023-04-07 22:29:32,419: INFO: all_utils]: Preparing the data by separating the dependent and independent variables
+[2023-04-07 22:29:32,420: INFO: model]: initial weights before training: 
+[-3.21941108e-05 -1.15481675e-04  2.61057149e-05]
+[2023-04-07 22:29:32,420: INFO: model]: X with bias: 
+[[ 0.  0. -1.]
+ [ 0.  1. -1.]
+ [ 1.  0. -1.]
+ [ 1.  1. -1.]]
+[2023-04-07 22:29:32,424: INFO: model]: --------------------
+[2023-04-07 22:29:32,424: INFO: model]: for epoch: 0
+[2023-04-07 22:29:32,424: INFO: model]: --------------------
+[2023-04-07 22:29:32,424: INFO: model]: predicted value after forward pass: 
+[0 0 0 0]
+[2023-04-07 22:29:32,425: INFO: model]: error: 
+0    0
+1    1
+2    1
+3    1
+Name: y, dtype: int64
+[2023-04-07 22:29:32,425: INFO: model]: updated weights after epoch:
+0/10 : 
+[ 0.59996781  0.59988452 -0.89997389]
+[2023-04-07 22:29:32,425: INFO: model]: ##################################################
+[2023-04-07 22:29:32,425: INFO: model]: --------------------
+[2023-04-07 22:29:32,425: INFO: model]: for epoch: 1
+[2023-04-07 22:29:32,425: INFO: model]: --------------------
+[2023-04-07 22:29:32,425: INFO: model]: predicted value after forward pass: 
+[1 1 1 1]
+[2023-04-07 22:29:32,425: INFO: model]: error: 
+0   -1
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2023-04-07 22:29:32,426: INFO: model]: updated weights after epoch:
+1/10 : 
+[ 0.59996781  0.59988452 -0.59997389]
+[2023-04-07 22:29:32,426: INFO: model]: ##################################################
+[2023-04-07 22:29:32,426: INFO: model]: --------------------
+[2023-04-07 22:29:32,426: INFO: model]: for epoch: 2
+[2023-04-07 22:29:32,426: INFO: model]: --------------------
+[2023-04-07 22:29:32,426: INFO: model]: predicted value after forward pass: 
+[1 1 1 1]
+[2023-04-07 22:29:32,426: INFO: model]: error: 
+0   -1
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2023-04-07 22:29:32,426: INFO: model]: updated weights after epoch:
+2/10 : 
+[ 0.59996781  0.59988452 -0.29997389]
+[2023-04-07 22:29:32,426: INFO: model]: ##################################################
+[2023-04-07 22:29:32,426: INFO: model]: --------------------
+[2023-04-07 22:29:32,426: INFO: model]: for epoch: 3
+[2023-04-07 22:29:32,426: INFO: model]: --------------------
+[2023-04-07 22:29:32,426: INFO: model]: predicted value after forward pass: 
+[1 1 1 1]
+[2023-04-07 22:29:32,426: INFO: model]: error: 
+0   -1
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2023-04-07 22:29:32,427: INFO: model]: updated weights after epoch:
+3/10 : 
+[5.99967806e-01 5.99884518e-01 2.61057149e-05]
+[2023-04-07 22:29:32,427: INFO: model]: ##################################################
+[2023-04-07 22:29:32,427: INFO: model]: --------------------
+[2023-04-07 22:29:32,427: INFO: model]: for epoch: 4
+[2023-04-07 22:29:32,427: INFO: model]: --------------------
+[2023-04-07 22:29:32,427: INFO: model]: predicted value after forward pass: 
+[0 1 1 1]
+[2023-04-07 22:29:32,427: INFO: model]: error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2023-04-07 22:29:32,427: INFO: model]: updated weights after epoch:
+4/10 : 
+[5.99967806e-01 5.99884518e-01 2.61057149e-05]
+[2023-04-07 22:29:32,427: INFO: model]: ##################################################
+[2023-04-07 22:29:32,427: INFO: model]: --------------------
+[2023-04-07 22:29:32,427: INFO: model]: for epoch: 5
+[2023-04-07 22:29:32,427: INFO: model]: --------------------
+[2023-04-07 22:29:32,427: INFO: model]: predicted value after forward pass: 
+[0 1 1 1]
+[2023-04-07 22:29:32,427: INFO: model]: error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2023-04-07 22:29:32,427: INFO: model]: updated weights after epoch:
+5/10 : 
+[5.99967806e-01 5.99884518e-01 2.61057149e-05]
+[2023-04-07 22:29:32,427: INFO: model]: ##################################################
+[2023-04-07 22:29:32,428: INFO: model]: --------------------
+[2023-04-07 22:29:32,428: INFO: model]: for epoch: 6
+[2023-04-07 22:29:32,428: INFO: model]: --------------------
+[2023-04-07 22:29:32,428: INFO: model]: predicted value after forward pass: 
+[0 1 1 1]
+[2023-04-07 22:29:32,428: INFO: model]: error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2023-04-07 22:29:32,428: INFO: model]: updated weights after epoch:
+6/10 : 
+[5.99967806e-01 5.99884518e-01 2.61057149e-05]
+[2023-04-07 22:29:32,428: INFO: model]: ##################################################
+[2023-04-07 22:29:32,428: INFO: model]: --------------------
+[2023-04-07 22:29:32,428: INFO: model]: for epoch: 7
+[2023-04-07 22:29:32,428: INFO: model]: --------------------
+[2023-04-07 22:29:32,428: INFO: model]: predicted value after forward pass: 
+[0 1 1 1]
+[2023-04-07 22:29:32,428: INFO: model]: error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2023-04-07 22:29:32,428: INFO: model]: updated weights after epoch:
+7/10 : 
+[5.99967806e-01 5.99884518e-01 2.61057149e-05]
+[2023-04-07 22:29:32,428: INFO: model]: ##################################################
+[2023-04-07 22:29:32,428: INFO: model]: --------------------
+[2023-04-07 22:29:32,428: INFO: model]: for epoch: 8
+[2023-04-07 22:29:32,428: INFO: model]: --------------------
+[2023-04-07 22:29:32,428: INFO: model]: predicted value after forward pass: 
+[0 1 1 1]
+[2023-04-07 22:29:32,429: INFO: model]: error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2023-04-07 22:29:32,429: INFO: model]: updated weights after epoch:
+8/10 : 
+[5.99967806e-01 5.99884518e-01 2.61057149e-05]
+[2023-04-07 22:29:32,429: INFO: model]: ##################################################
+[2023-04-07 22:29:32,429: INFO: model]: --------------------
+[2023-04-07 22:29:32,429: INFO: model]: for epoch: 9
+[2023-04-07 22:29:32,429: INFO: model]: --------------------
+[2023-04-07 22:29:32,429: INFO: model]: predicted value after forward pass: 
+[0 1 1 1]
+[2023-04-07 22:29:32,429: INFO: model]: error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64
+[2023-04-07 22:29:32,429: INFO: model]: updated weights after epoch:
+9/10 : 
+[5.99967806e-01 5.99884518e-01 2.61057149e-05]
+[2023-04-07 22:29:32,429: INFO: model]: ##################################################
+[2023-04-07 22:29:32,430: INFO: model]: total loss: 0
+[2023-04-07 22:29:32,430: INFO: all_utils]: Saving the trained model
+[2023-04-07 22:29:32,432: INFO: all_utils]: saved the trained model to models/or.model
+[2023-04-07 22:29:32,432: INFO: all_utils]: Preparing the data by separating the dependent and independent variables
+[2023-04-07 22:29:32,433: INFO: all_utils]: Creating the base plot
+[2023-04-07 22:29:32,594: INFO: all_utils]: Plotting the decision regions
+[2023-04-07 22:29:32,695: INFO: all_utils]: saved the plot to plots/or.png
+[2023-04-07 22:29:32,696: INFO: or]: <<<<< finished training <<<<<
+
